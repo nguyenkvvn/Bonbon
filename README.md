@@ -24,18 +24,23 @@ If you are using a multi-display setup at your work/battle-station along with a 
 FAQ
 -------------
 *Q:* Why does Bonbon need to be "Run as an administrator"?
+
 *A:* The ManagementEventWatcher class needs Administrator permissions to be able to inspect your process tree and let Bonbon know when you started or stopped the Windows MR application. Bonbon (and other applications) would be denied access to viewing your list of open apps under normal conditions for security reasons.
 
 *Q:* I have a GPU that supports more than four displays! Is Bonbon for me?
+
 *A:* **NO.** Bonbon is intended only for computers with consumer GPUs that can only support, at most, four monitors. Chances are, if your GPU has support for more than four or five, it can handle a 6th (your MR headset!).
 
 *Q:* Are you affiliated or endorsed by NirSoft in any way?
+
 *A:* I am not. 
 
 *Q:* Of all names, why did you choose "Bonbon"?
+
 *A:* I was listening to Era Istrefi's "Bonbon" (not affiliated or endorsed in any way) and I got the song stuck in my head. 
 
 *Q:* Is the quote above a Vietnamese translation of-?
+
 *A:* haha yes. 
 
 ----------
