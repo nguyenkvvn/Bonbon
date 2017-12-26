@@ -81,18 +81,22 @@ namespace Bonbon
                 {
                     System.Diagnostics.Process.Start(@"MultiMonitorTool\MultiMonitorTool.exe", "/Disable 1");
                 }
+                System.Threading.Thread.Sleep(1000);
                 if (preferences.Monitor2Disable)
                 {
                     System.Diagnostics.Process.Start(@"MultiMonitorTool\MultiMonitorTool.exe", "/Disable 2");
                 }
+                System.Threading.Thread.Sleep(1000);
                 if (preferences.Monitor3Disable)
                 {
                     System.Diagnostics.Process.Start(@"MultiMonitorTool\MultiMonitorTool.exe", "/Disable 3");
                 }
+                System.Threading.Thread.Sleep(1000);
                 if (preferences.Monitor4Disable)
                 {
                     System.Diagnostics.Process.Start(@"MultiMonitorTool\MultiMonitorTool.exe", "/Disable 4");
                 }
+                System.Threading.Thread.Sleep(1000);
                 if (preferences.Monitor5Disable)
                 {
                     System.Diagnostics.Process.Start(@"MultiMonitorTool\MultiMonitorTool.exe", "/Disable 5");
